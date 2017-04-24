@@ -48,6 +48,7 @@ nav {
     overflow: hidden;
     position: relative;
     width: 100%;
+    height: 80px;
     margin-left: auto;
     margin-right: auto;
     margin: 0px;
@@ -56,13 +57,58 @@ nav {
     font-size: 15px;
 }
 
-nav ul {
-	list-style: none;
+nav a {
+    display: inline-block;
+    margin-top: 40px;
+    vertical-align:baseline;
+    width: 75px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: #BF7C87;
+}
+
+#currentPage {
+	background-color: #BF7C87;
+	color: white;
+}
+
+.logo {
+    display: inline-block;
+    float:left;
+    vertical-align: top;
+    height:80px;
+}
+
+#banner {
+    overflow: hidden;
+    width: 100%
+    height: 800px;
+    background: url(_img/209MannaMinistries.gif) no-repeat;
+    background-size: cover;
+}
+
+#banner h1 {
+    text-align: center;
+    font-size: 6em;
+    margin-top: 200px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#banner h2 {
+    text-align: center;
+    margin-bottom: 200px;
+    text-outline: 2px 2px #ffffff;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 section {
     border: 2px solid grey;
-    background-color: grey;
     margin: 5px;
 }
 
@@ -72,20 +118,59 @@ section {
 }
 
 #hours {
-    width:560px;
+    width:55%;
     padding-right: 10px;
     display: inline-block;
-    box-sizing: border-box;
     vertical-align: top;
     text-align: left;
-    
+}
+
+#hours h2 {
+    font-size: 10em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#hours p {
+    font-size: 2em;
 }
 
 #facebook {
-    width:340px;
+    width:40%;
     display: inline-block;
-    box-sizing: border-box;
     vertical-align: top;
-    text-align: right;
+    text-align: center
 }
 
+footer {
+    width: 100%;
+    background-color: #EFC4AC;
+    height:105px;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+}
+
+footer iframe {
+    position: inherit;
+    float:left;
+}
+
+footer #contact {
+    clear:left;
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    margin-top: 0px;
+    
+}
+
+#contact p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+footer img{
+    height: 100px;
+    float:right;
+    vertical-align: top;
+}
