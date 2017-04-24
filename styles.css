@@ -60,7 +60,7 @@ nav {
 nav a {
     display: inline-block;
     margin-top: 40px;
-    vertical-align:baseline;
+    vertical-align: top;
     width: 75px;
     line-height: 40px;
     text-decoration: none;
