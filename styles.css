@@ -7,9 +7,14 @@ html {
 
 /* Set the default <body> properties. */
 body {
-	background-color: #FFFFDF;
-	color: DarkSlateGray;
+	background-color: #BF7C87;
+	color: #470512;
 	font-family: Arial, Verdana, "Lucida Sans", sans-serif;
+}
+
+header {
+    background-color: #EFC4AC;  
+    padding: 3px;
 }
 
 h1 {
@@ -39,13 +44,26 @@ p, li {
     font-size: 1.4rem;
 }
 
+nav {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px;
+    background-color: #EFC4AC;
+    text-align: right;
+    font-size: 15px;
+}
+
 nav ul {
 	list-style: none;
 }
 
-p::first-letter {
-    font-size: 400%;
-	text-shadow: 2px 2px 7px #111111;
+section {
+    border: 2px solid grey;
+    background-color: grey;
+    margin: 5px;
 }
 
 #currentPage {
@@ -53,22 +71,21 @@ p::first-letter {
 	color: Brown;
 }
 
-.parentheticalInfo {
-	font-style: italic;	
+#hours {
+    width:560px;
+    padding-right: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: left;
+    
 }
 
-a:link {
-	color: Green;	
+#facebook {
+    width:340px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: right;
 }
 
-a:visited {
-	color: #D14949;
-}
-
-a:hover {
-	text-decoration: none;	
-}
-
-a:active {
-	color: Blue;	
-}
