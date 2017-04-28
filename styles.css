@@ -9,12 +9,17 @@ html {
 body {
 	background-color: #BF7C87;
 	color: #470512;
-	font-family: Arial, Verdana, "Lucida Sans", sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 header {
     background-color: #EFC4AC;  
     padding: 3px;
+}
+
+#currentPage {
+	background-color: #BF7C87;
+    color: #470512;
 }
 
 h1 {
@@ -23,9 +28,9 @@ h1 {
 }
 
 h2 {
-    font-size: 21px;
-    font-size: 2.1rem;
+    font-size: 3.8rem;
 	font-weight: normal;
+    text-align: center;
 }
 
 h3 {
@@ -43,6 +48,11 @@ p, li {
     font-size: 14px;
     font-size: 1.4rem;
 }
+
+section a {
+    color: #EFC4AC;
+}
+
 
 nav {
     overflow: hidden;
@@ -73,9 +83,10 @@ nav a:hover {
     color: #BF7C87;
 }
 
-#currentPage {
-	background-color: #BF7C87;
-	color: white;
+
+
+#currentPage a {
+    color: #470512;
 }
 
 .logo {
@@ -108,13 +119,18 @@ nav a:hover {
 }
 
 section {
-    border: 2px solid grey;
     margin: 5px;
 }
 
 #currentPage {
 	font-weight: bold;	
 	color: Brown;
+}
+
+#homecontent {
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hours {
@@ -129,10 +145,12 @@ section {
     font-size: 10em;
     margin-top: auto;
     margin-bottom: auto;
+    text-align: center;
 }
 
 #hours p {
     font-size: 2em;
+    text-align: center;
 }
 
 #facebook {
@@ -167,7 +185,7 @@ section {
 footer {
     width: 100%;
     background-color: #EFC4AC;
-    height:105px;
+    height:115px;
     display: inline-block;
     padding: 5px 5px 5px 5px;
 }
@@ -191,6 +209,10 @@ footer img{
     vertical-align: top;
 }
 
+footer a {
+    color: #470512;
+}
+
 #contact p {
     margin-top: 2px;
     margin-bottom: 2px;
@@ -204,7 +226,6 @@ footer img{
 #contactus img{
     display: inline-block;
     max-width: 35%;
-    height:550px;
     float:left;
     padding: 10px;
 }
@@ -212,7 +233,6 @@ footer img{
 #box {
     display: inline-block;
     float: right;
-    height:540px;
 	width: 55%;
 	background-color: #EFC4AC;
 	margin: 10px;
@@ -242,4 +262,102 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: black;
+}
+
+#aboutUs {
+    font-family: 'Oswald', sans-serif;
+}
+
+#statistics h3 {
+    width: 100%;
+    font-size: 1.8rem;
+	font-weight: normal;
+    display: inline-block;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#statistics {
+    background-color: #EFC4AC;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+#mission p {
+    width:70%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#statistics p {
+    width:50%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about p{
+    width:70%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#holly, #kelsey, #bret, #jim {
+    width:100%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#holly img, #bret img {
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+#kelsey img, #jim img {
+    width: 250px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px;
+}
+
+#kelsey, #jim {
+    text-align: right;
+}
+
+#biography {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.title {
+    color:darkgray;
+}
+
+#donate {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#donate ul {
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+#donate li {
+    list-style: circle;
+    width:50%;
+    line-height:1.5em;
+    float:left;
+    display:inline;
 }
